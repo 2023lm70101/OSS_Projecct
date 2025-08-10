@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+ <web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LogoutServlet</servlet-class>
+  	
+  </servlet>
+  <servlet>
+  	<servlet-name>BookingServlet</servlet-name>
+  	<display-name>BookingServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.BookingServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Adduser</servlet-name>
+  	<display-name>Adduser</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Adduser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddUserServlete</servlet-name>
+  	<display-name>AddUserServlete</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.AddUserServlete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookingServlet</servlet-name>
+  	<url-pattern>/BookingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Adduser</servlet-name>
+  	<url-pattern>/Adduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddUserServlete</servlet-name>
+  	<url-pattern>/AddUserServlete</url-pattern>
+  </servlet-mapping>
+   <!-- <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>  -->
+  
+</web-app>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/dbwedding</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="show_sql">false</property>
+		<property name="format_sql">true</property>
+		<mapping class="com.entities.Account" />
+		<mapping class="com.entities.AccountDetail" />
+		<mapping class="com.entities.Calendar" />
+		<mapping class="com.entities.Events" />
+		<mapping class="com.entities.Feature" />
+		<mapping class="com.entities.Gallery" />
+		<mapping class="com.entities.Guest" />
+		<mapping class="com.entities.Liquidation" />
+		<mapping class="com.entities.Organizer" />
+		<mapping class="com.entities.PostWedding" />
+		<mapping class="com.entities.User" />
+		<mapping class="com.entities.WeddingBook" />
+		<mapping class="com.entities.WeddingCategory" /> 
+	</session-factory>
+
+
+</hibernate-configuration>
